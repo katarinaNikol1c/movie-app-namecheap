@@ -12,6 +12,57 @@ type MovieProps = {
     direction: string,
 }
 
+export default function Movie({
+    original_title, 
+    release_date, 
+    image_path, 
+    backdrop_path, 
+    genres,
+    overview,
+    direction,
+}: MovieProps) {
+
+    const [showModal, setShowModal] = useState(false);
+    
+
+    const handleClick = () => {
+        setShowModal(true);
+    }
+
+    const handleClose = () => {
+        setShowModal(false);
+    }
+
+    return (
+        <>
+            <MoviePoster style={{
+                background: `url(${image_path}) no-repeat center center / cover`,
+            }}
+            onClick={handleClick}
+            >
+                <MovieDetails>
+                    <h2 style={{marginBottom: '8px'}}>{original_title}</h2>
+                    <p style={{color: '#fff'}}>{release_date.slice(0,4)}</p>
+                    {genres?.map((genre, index) => (
+                        <MovieGenre key={index}>{genre}</MovieGenre>
+                    ))}
+                </MovieDetails>
+            </MoviePoster>
+            {showModal && 
+                <MovieModal 
+                    title={original_title}
+                    image={backdrop_path}
+                    plot={overview}
+                    direction={direction}
+                    genres={genres}
+                    handleClose={handleClose}
+                    date={release_date.slice(0,4)}
+                />
+            }
+        </>
+    )
+}
+
 const MovieDetails = styled.div`
     position: absolute;
     bottom: 24px;
@@ -64,57 +115,3 @@ const MovieGenre = styled.span`
         white-space: pre;
     }
 `;
-
-export default function Movie({
-    original_title, 
-    release_date, 
-    image_path, 
-    backdrop_path, 
-    genres,
-    overview,
-    direction,
-    
-}: MovieProps) {
-
-    const [showModal, setShowModal] = useState(false);
-    
-
-    const handleClick = () => {
-        setShowModal(true);
-    }
-
-    const handleClose = () => {
-        setShowModal(false);
-    }
-
-    return (
-        <>
-            <MoviePoster style={{
-                background: `url(${image_path}) no-repeat center center / cover`,
-            }}
-            onClick={handleClick}
-            >
-                <MovieDetails>
-                    <h2 style={{marginBottom: '8px'}}>{original_title}</h2>
-                    <p style={{color: '#fff'}}>{release_date.slice(0,4)}</p>
-                    {genres?.map((genre, index) => (
-                        <MovieGenre key={index}>{genre}</MovieGenre>
-                    ))}
-                </MovieDetails>
-            </MoviePoster>
-            {showModal && 
-                <MovieModal 
-                    title={original_title}
-                    image={backdrop_path}
-                    plot={overview}
-                    direction={direction}
-                    genres={genres}
-                    handleClose={handleClose}
-                    date={release_date.slice(0,4)}
-                />
-            }
-        </>
-    )
-
-
-}

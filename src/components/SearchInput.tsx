@@ -79,6 +79,7 @@ const Input = styled.input`
     color: #ddd;
     width: 240px;
     border-radius: 0 8px 8px 0;
+    background: #3b3b3b;
 `;
 
 const Front = styled.span`

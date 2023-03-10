@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1678461236321" clover="3.2.0">
-  <project timestamp="1678461236321" name="All files">
-    <metrics statements="614" coveredstatements="173" conditionals="12" coveredconditionals="4" methods="11" coveredmethods="2" elements="637" coveredelements="179" complexity="0" loc="614" ncloc="614" packages="2" files="8" classes="8"/>
-    <package name="pages">
-      <metrics statements="550" coveredstatements="173" conditionals="10" coveredconditionals="4" methods="9" coveredmethods="2"/>
-      <file name="Holder.tsx" path="/Users/katarina/Documents/projects/movie-app/fe-exercise/src/pages/Holder.tsx">
-        <metrics statements="27" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+<coverage generated="1678465248337" clover="3.2.0">
+  <project timestamp="1678465248337" name="All files">
+    <metrics statements="502" coveredstatements="117" conditionals="10" coveredconditionals="4" methods="9" coveredmethods="2" elements="521" coveredelements="123" complexity="0" loc="502" ncloc="502" packages="2" files="6" classes="6"/>
+    <package name="components">
+      <metrics statements="479" coveredstatements="117" conditionals="9" coveredconditionals="4" methods="8" coveredmethods="2"/>
+      <file name="Holder.tsx" path="/Users/katarina/Documents/projects/movie-app/fe-exercise/src/components/Holder.tsx">
+        <metrics statements="35" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
@@ -33,8 +33,16 @@
         <line num="25" count="0" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
       </file>
-      <file name="Movie.tsx" path="/Users/katarina/Documents/projects/movie-app/fe-exercise/src/pages/Movie.tsx">
+      <file name="Movie.tsx" path="/Users/katarina/Documents/projects/movie-app/fe-exercise/src/components/Movie.tsx">
         <metrics statements="120" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -157,7 +165,7 @@
         <line num="119" count="0" type="stmt"/>
         <line num="120" count="0" type="stmt"/>
       </file>
-      <file name="MovieModal.tsx" path="/Users/katarina/Documents/projects/movie-app/fe-exercise/src/pages/MovieModal.tsx">
+      <file name="MovieModal.tsx" path="/Users/katarina/Documents/projects/movie-app/fe-exercise/src/components/MovieModal.tsx">
         <metrics statements="147" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -307,7 +315,7 @@
         <line num="146" count="0" type="stmt"/>
         <line num="147" count="0" type="stmt"/>
       </file>
-      <file name="Movies.tsx" path="/Users/katarina/Documents/projects/movie-app/fe-exercise/src/pages/Movies.tsx">
+      <file name="Movies.tsx" path="/Users/katarina/Documents/projects/movie-app/fe-exercise/src/components/Movies.tsx">
         <metrics statements="45" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
@@ -355,8 +363,8 @@
         <line num="44" count="0" type="stmt"/>
         <line num="45" count="0" type="stmt"/>
       </file>
-      <file name="SearchInput.tsx" path="/Users/katarina/Documents/projects/movie-app/fe-exercise/src/pages/SearchInput.tsx">
-        <metrics statements="188" coveredstatements="173" conditionals="5" coveredconditionals="4" methods="4" coveredmethods="2"/>
+      <file name="SearchInput.tsx" path="/Users/katarina/Documents/projects/movie-app/fe-exercise/src/components/SearchInput.tsx">
+        <metrics statements="132" coveredstatements="117" conditionals="5" coveredconditionals="4" methods="4" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -422,7 +430,7 @@
         <line num="63" count="6" type="stmt"/>
         <line num="64" count="6" type="stmt"/>
         <line num="65" count="6" type="stmt"/>
-        <line num="66" count="6" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
         <line num="67" count="1" type="stmt"/>
         <line num="68" count="1" type="stmt"/>
         <line num="69" count="1" type="stmt"/>
@@ -489,63 +497,10 @@
         <line num="130" count="1" type="stmt"/>
         <line num="131" count="1" type="stmt"/>
         <line num="132" count="1" type="stmt"/>
-        <line num="133" count="1" type="stmt"/>
-        <line num="134" count="1" type="stmt"/>
-        <line num="135" count="1" type="stmt"/>
-        <line num="136" count="1" type="stmt"/>
-        <line num="137" count="1" type="stmt"/>
-        <line num="138" count="1" type="stmt"/>
-        <line num="139" count="1" type="stmt"/>
-        <line num="140" count="1" type="stmt"/>
-        <line num="141" count="1" type="stmt"/>
-        <line num="142" count="1" type="stmt"/>
-        <line num="143" count="1" type="stmt"/>
-        <line num="144" count="1" type="stmt"/>
-        <line num="145" count="1" type="stmt"/>
-        <line num="146" count="1" type="stmt"/>
-        <line num="147" count="1" type="stmt"/>
-        <line num="148" count="1" type="stmt"/>
-        <line num="149" count="1" type="stmt"/>
-        <line num="150" count="1" type="stmt"/>
-        <line num="151" count="1" type="stmt"/>
-        <line num="152" count="1" type="stmt"/>
-        <line num="153" count="1" type="stmt"/>
-        <line num="154" count="1" type="stmt"/>
-        <line num="155" count="1" type="stmt"/>
-        <line num="156" count="1" type="stmt"/>
-        <line num="157" count="1" type="stmt"/>
-        <line num="158" count="1" type="stmt"/>
-        <line num="159" count="1" type="stmt"/>
-        <line num="160" count="1" type="stmt"/>
-        <line num="161" count="1" type="stmt"/>
-        <line num="162" count="1" type="stmt"/>
-        <line num="163" count="1" type="stmt"/>
-        <line num="164" count="1" type="stmt"/>
-        <line num="165" count="1" type="stmt"/>
-        <line num="166" count="1" type="stmt"/>
-        <line num="167" count="1" type="stmt"/>
-        <line num="168" count="1" type="stmt"/>
-        <line num="169" count="1" type="stmt"/>
-        <line num="170" count="1" type="stmt"/>
-        <line num="171" count="1" type="stmt"/>
-        <line num="172" count="1" type="stmt"/>
-        <line num="173" count="1" type="stmt"/>
-        <line num="174" count="1" type="stmt"/>
-        <line num="175" count="1" type="stmt"/>
-        <line num="176" count="1" type="stmt"/>
-        <line num="177" count="1" type="stmt"/>
-        <line num="178" count="1" type="stmt"/>
-        <line num="179" count="1" type="stmt"/>
-        <line num="180" count="1" type="stmt"/>
-        <line num="181" count="1" type="stmt"/>
-        <line num="182" count="1" type="stmt"/>
-        <line num="183" count="1" type="stmt"/>
-        <line num="184" count="1" type="stmt"/>
-        <line num="185" count="1" type="stmt"/>
-        <line num="186" count="1" type="stmt"/>
-        <line num="187" count="1" type="stmt"/>
-        <line num="188" count="1" type="stmt"/>
       </file>
+    </package>
+    <package name="pages">
+      <metrics statements="23" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="index.tsx" path="/Users/katarina/Documents/projects/movie-app/fe-exercise/src/pages/index.tsx">
         <metrics statements="23" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
@@ -571,79 +526,6 @@
         <line num="21" count="0" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="pages.api.v1.movies">
-      <metrics statements="64" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
-      <file name="list.ts" path="/Users/katarina/Documents/projects/movie-app/fe-exercise/src/pages/api/v1/movies/list.ts">
-        <metrics statements="35" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-      </file>
-      <file name="search.ts" path="/Users/katarina/Documents/projects/movie-app/fe-exercise/src/pages/api/v1/movies/search.ts">
-        <metrics statements="29" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
       </file>
     </package>
   </project>

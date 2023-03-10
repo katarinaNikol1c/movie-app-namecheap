@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchInput from '../pages/SearchInput';
+import SearchInput from '../components/SearchInput';
 import "@testing-library/jest-dom";
 import { fireEvent, render, waitFor, screen } from "@testing-library/react";
 

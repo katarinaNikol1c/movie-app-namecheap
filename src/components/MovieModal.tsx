@@ -106,7 +106,7 @@ const Genre = styled.span`
 
 
 const MovieModal = ({title, image, plot, direction, genres, date, handleClose} :ModalProps) => {
-    const handleOverlayClose = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const handleOverlayClose = (event: React.MouseEvent<HTMLDivElement>) => {
         if (event.target === event.currentTarget) {
             handleClose();
         }
@@ -128,8 +128,8 @@ const MovieModal = ({title, image, plot, direction, genres, date, handleClose} :
                     <MovieGenres>
                         <p>Genres: </p>
                         {
-                            genres?.map((genre) => (
-                                <Genre>{genre}</Genre>
+                            genres?.map((genre, index) => (
+                                <Genre key={index}>{genre}</Genre>
                             ))
                         }
                     </MovieGenres>

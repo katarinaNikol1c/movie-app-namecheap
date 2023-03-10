@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-
 import SearchInput from "./SearchInput";
 import Movies from "./Movies";
 import styled from 'styled-components'
@@ -13,7 +12,7 @@ const Title = styled.h3`
 
 const Holder = ( ) => {
     const [movies, setMovies] = useState([]);
-
+    
     useEffect( () => {
         fetch('./api/v1/movies/list')
         .then((res) => res.json())
@@ -26,7 +25,7 @@ const Holder = ( ) => {
         <>
             <Title>Movie App</Title>
             <SearchInput setMovies={setMovies} />
-            <Movies moviesList={movies} />
+            <Movies movies={movies} />
         </>
       )
 
