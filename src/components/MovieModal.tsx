@@ -36,6 +36,9 @@ const ModalContent = styled.div`
     border-radius: 8px;
     position: relative;
     box-shadow: 0 0 18px 6px rgb(237 37 25 / 80%);
+    @media (max-width: 700px) {
+        max-width: 90%;
+    }
 
 `;
 

@@ -70,6 +70,10 @@ const SearchBox = styled.div`
     margin-bottom: 48px;
     text-align: center;
     gap: 24px;
+    @media (max-width: 700px) {
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
 `;
 
 const Input = styled.input`
@@ -80,6 +84,9 @@ const Input = styled.input`
     width: 240px;
     border-radius: 0 8px 8px 0;
     background: #3b3b3b;
+    @media (max-width: 700px) {
+        width: 350px;
+    }
 `;
 
 const Front = styled.span`
@@ -91,7 +98,11 @@ const Front = styled.span`
     color: #fff;
     background: #f0003c;
     transition:
-        transform 600ms cubic-bezier(.3, .7, .4, 1)
+        transform 600ms cubic-bezier(.3, .7, .4, 1);
+    @media (max-width: 700px) {
+        padding: 8px 14px;
+        font-size: 16px;
+    }
 `;
 
 const SearchButton = styled.button`
